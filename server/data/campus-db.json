@@ -1,0 +1,205 @@
+{
+  "courses": [
+    {
+      "_id": "gkkv8n3vo5a5lq2idwgzo",
+      "name": "Computer Science & Engineering",
+      "code": "CSE",
+      "durationYears": 4,
+      "description": "B.Tech Program in CSE focusing on Software, Systems, and AI."
+    },
+    {
+      "_id": "3drh0igywad7bvge1fypsc",
+      "name": "Electronics & Communication Engineering",
+      "code": "ECE",
+      "durationYears": 4,
+      "description": "B.Tech Program in ECE focusing on circuits, embedded systems, and communications."
+    }
+  ],
+  "subjects": [
+    {
+      "_id": "jflobvr2ntrs3jeoa6l2",
+      "name": "Data Structures & Algorithms",
+      "code": "CSE-301",
+      "courseId": "gkkv8n3vo5a5lq2idwgzo",
+      "facultyId": "5jrdejxvb59sjrmaa443r",
+      "semester": 3,
+      "createdAt": "2026-07-22T14:59:14.965Z"
+    },
+    {
+      "_id": "v9fpe9fi8gisnmm0k8gm",
+      "name": "Advanced Software Engineering",
+      "code": "CSE-302",
+      "courseId": "gkkv8n3vo5a5lq2idwgzo",
+      "facultyId": "5jrdejxvb59sjrmaa443r",
+      "semester": 3,
+      "createdAt": "2026-07-22T14:59:14.965Z"
+    }
+  ],
+  "students": [
+    {
+      "_id": "0hupcbxxcjqn595f61ep9d9",
+      "name": "John Doe",
+      "email": "student@campus.com",
+      "password": "$2b$10$H3jvEzNTJbfzGRTZRZ61teypkSgWs85Eg31gKJo4.aWMdoWHZZjsK",
+      "rollNumber": "CS-2023-045",
+      "courseId": "gkkv8n3vo5a5lq2idwgzo",
+      "batch": "2023-2027",
+      "phone": "987-654-3210",
+      "address": "123 Campus Lane, Silicon City",
+      "dob": "2004-05-15",
+      "gender": "male",
+      "guardianName": "Richard Doe",
+      "guardianPhone": "987-654-3211",
+      "hostelId": "h34arinjkj597i3bbqj1j8",
+      "roomNumber": "101",
+      "role": "student",
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    }
+  ],
+  "faculty": [
+    {
+      "_id": "5jrdejxvb59sjrmaa443r",
+      "name": "Dr. Evelyn Martinez",
+      "email": "faculty@campus.com",
+      "password": "$2b$10$uFXMrSoB7DXVwQ9FfihPAe2cyHXOWzLkjsneDIFo.k1Mtd/G76S/y",
+      "employeeId": "FAC-2001",
+      "department": "Computer Science",
+      "designation": "Professor",
+      "phone": "123-456-7890",
+      "subjects": [
+        "jflobvr2ntrs3jeoa6l2",
+        "v9fpe9fi8gisnmm0k8gm"
+      ],
+      "role": "faculty",
+      "createdAt": "2026-07-22T14:59:14.965Z"
+    }
+  ],
+  "admins": [
+    {
+      "_id": "x0cuuzgr37evw29piz84ql",
+      "name": "Dean Arthur Pendragon",
+      "email": "admin@campus.com",
+      "password": "$2b$10$8JmzAblq/NbrSxwICFSFye4GgeWachoWO7sxBWOA96dYDiYr2hCJS",
+      "employeeId": "ADM-1001",
+      "role": "admin",
+      "createdAt": "2026-07-22T14:59:14.851Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-07-22T14:59:15.193Z",
+      "loginHistory": [
+        {
+          "timestamp": "2026-07-22T14:59:15.193Z",
+          "ip": "127.0.0.1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+          "status": "SUCCESS"
+        }
+      ],
+      "updatedAt": "2026-07-22T14:59:15.194Z"
+    }
+  ],
+  "attendance": [],
+  "assignments": [],
+  "results": [],
+  "fees": [],
+  "librarybooks": [
+    {
+      "_id": "lc7k1wh8rxhtqplkcbca7",
+      "title": "Introduction to Algorithms",
+      "author": "Cormen, Leiserson, Rivest, Stein",
+      "isbn": "9780262033848",
+      "category": "Computer Science",
+      "totalCopies": 10,
+      "availableCopies": 9,
+      "borrowedBy": [
+        {
+          "studentId": "0hupcbxxcjqn595f61ep9d9",
+          "borrowDate": "2026-06-25",
+          "status": "borrowed"
+        }
+      ],
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    },
+    {
+      "_id": "iex35umsfld6cedeh3xdr",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350884",
+      "category": "Software Development",
+      "totalCopies": 5,
+      "availableCopies": 5,
+      "borrowedBy": [],
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    }
+  ],
+  "hostels": [
+    {
+      "_id": "h34arinjkj597i3bbqj1j8",
+      "name": "Silicon Boys Hostel A",
+      "type": "boys",
+      "capacity": 100,
+      "rooms": [
+        {
+          "roomNumber": "101",
+          "studentIds": [
+            "0hupcbxxcjqn595f61ep9d9"
+          ],
+          "capacity": 2
+        },
+        {
+          "roomNumber": "102",
+          "studentIds": [],
+          "capacity": 2
+        }
+      ],
+      "wardenName": "Mr. Ronald Wesley",
+      "wardenPhone": "111-222-3333",
+      "createdAt": "2026-07-22T14:59:14.965Z"
+    }
+  ],
+  "events": [
+    {
+      "_id": "mqllusse84pr5z1fp12kl",
+      "title": "TechSymposium 2026",
+      "description": "National Technical Symposium featuring paper presentations, coding contests, and guest lectures.",
+      "date": "2026-07-20",
+      "time": "09:00",
+      "location": "Main Auditorium",
+      "organizer": "CSE Department",
+      "type": "academic",
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    },
+    {
+      "_id": "0enr1lqz7h7snjt1vm4ussn",
+      "title": "Inter-Hostel Football Tournament",
+      "description": "Exciting matches between silicone and copper halls of residence.",
+      "date": "2026-07-15",
+      "time": "16:30",
+      "location": "Campus Sports Ground",
+      "organizer": "Sports Committee",
+      "type": "sports",
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    }
+  ],
+  "notices": [
+    {
+      "_id": "x79qefdxxm7kw7lndvc7f",
+      "title": "Mid-Semester Examinations Schedule",
+      "content": "Mid-sem exams will commence from August 10th. Timetables have been published in the portal.",
+      "audience": "all",
+      "authorId": "x0cuuzgr37evw29piz84ql",
+      "authorName": "Dean Arthur Pendragon",
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    },
+    {
+      "_id": "8awqi21swrfyp62jevhga",
+      "title": "Hackathon 2026 Registrations Open",
+      "content": "Annual Campus Hackathon is on July 25th. Register in teams of 4 by July 20th.",
+      "audience": "students",
+      "authorId": "5jrdejxvb59sjrmaa443r",
+      "authorName": "Dr. Evelyn Martinez",
+      "createdAt": "2026-07-22T14:59:15.070Z"
+    }
+  ],
+  "leaverequests": [],
+  "timetableentries": []
+}

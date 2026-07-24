@@ -1,0 +1,6 @@
+{
+  "name": "Smart Campus Management System",
+  "description": "A comprehensive Smart Campus Management System with dual-role authentication for Students, Faculty, and Admins, managing courses, grades, attendance, fees, library, hostel, and more.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
